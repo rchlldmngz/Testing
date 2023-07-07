@@ -1019,7 +1019,7 @@ header .member-actions {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: solid 1px #E6E9EA;
+    border: solid 1px #e6e9ea;
     text-align: left;
     position: relative
 }
@@ -1047,6 +1047,7 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-phone,
 .rsvp .rsvp-form .form-input-group .fa-key {
     font-size: 14px;
+    color: #000;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -1064,19 +1065,19 @@ header .member-actions {
 }
 /*Text in RSVP*/
 .rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder {
-    color: #BCC1C3
+    color: #5b5e5f
 }
 
 .rsvp .rsvp-form .form-input-group input:-moz-placeholder {
-    color: #BCC1C3
+    color: #5b5e5f
 }
 
 .rsvp .rsvp-form .form-input-group input::-moz-placeholder {
-    color: #ee0d0d
+    color: #5b5e5f
 }
 
 .rsvp .rsvp-form .form-input-group input:-ms-input-placeholder {
-    color: #f50404
+    color: #5b5e5f
 }
 
 footer .content {

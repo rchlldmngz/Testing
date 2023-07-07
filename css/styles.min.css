@@ -163,7 +163,7 @@ a:focus {
 body {
     
     font-weight: 300;
-    color: white;
+    color: black;
     -webkit-text-size-adjust: 100%;
     background: url(../img/background.jpg), center, center;
     background-repeat: no-repeat;
@@ -1075,7 +1075,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: white;
+    color: rgb(130, 10, 10);
     font-size: 14px
 }
 
@@ -1100,7 +1100,7 @@ header .member-actions {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 20px
+    margin-left: 20px;
 }
 
 .rsvp .rsvp-form .form-input-group input {
@@ -1114,11 +1114,11 @@ header .member-actions {
 }
 /*Text in RSVP*/
 .rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder {
-    color: #BCC1C3
+    color: #080808
 }
 
 .rsvp .rsvp-form .form-input-group input:-moz-placeholder {
-    color: #BCC1C3
+    color: #080808
 }
 
 .rsvp .rsvp-form .form-input-group input::-moz-placeholder {
@@ -1186,6 +1186,10 @@ strong {
     color: white;
 }
 
+#input {
+    text-align: left;
+    color: black
+}
 .form-check-label {
     font-weight: 300;
     font-family: 'Times New Roman', Times, serif;
